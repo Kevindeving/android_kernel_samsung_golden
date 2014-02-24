@@ -627,12 +627,6 @@ config USB_SWITCHER
 	help
 	  Say Y to enable support for USB switch devices.
 
-config TORCH_FLASH
-	bool "torch flash driver"
-	default n
-	help
-	  This driver provides torch flash function.
-
 config GENERIC_BLN
 	bool "Generic BLN support for backlight notification"
 	depends on SYSFS && EXPERIMENTAL
